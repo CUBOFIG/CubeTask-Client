@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from 'react-router-dom'
+import ProjectState from './container/projectsContext/projectsState'
+import TaskState from './container/taskContext/TaskState'
+import AuthState from './container/authContext/authState'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  <Router>
+    <ProjectState>
+      <TaskState>
+        <AuthState>
+          <App />
+        </AuthState>
+      </TaskState>
+    </ProjectState>
+  </Router>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 

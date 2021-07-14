@@ -1,0 +1,21 @@
+export const FORM_PROJECT = 'FORM_PROJECT';
+export const GET_PROJECTS = 'GET_PROJECTS';
+export const ADD_PROJECT = 'ADD_PROJECT';
+export const ACTUAL_PROJECT = 'ACTUAL_PROJECT';
+export const DELETE_PROJECT = 'DELETE_PROJECT';
+export const PROJECT_ERROR = 'PROJECT_ERROR';
+
+export const TASKS_PROJECT = 'TASKS_PROJECT'
+export const ADD_TASK = 'ADD_TASK'
+export const DELETE_TASK = 'DELETE_TASK'
+export const STATE_TASK = 'STATE_TASK'
+export const ACTUAL_TASK = 'ACTUAL_TASK'
+export const EDIT_TASK = 'EDIT_TASK'
+
+export const REGISTER_SUCCESSFUL = "REGISTER_SUCCESSFUL"
+export const REGISTER_ERROR = "REGISTER_ERROR"
+export const GET_USER = "GET_USER"
+export const LOGIN_SUCESSFUL = "LOGIN_SUCESSFUL"
+export const LOGIN_ERROR = "LOGIN_ERROR"
+export const SIGN_OFF = "SIGN_OFF"
+
